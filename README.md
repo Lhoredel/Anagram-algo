@@ -1,1 +1,2 @@
 # Anagram-algo
+This code solves the Anagram problem by calculating the minimum character changes needed to split a string into two anagram halves. It first checks if the string length is even, then compares character frequencies between the two halves using count arrays. The algorithm calculates required changes by summing the excess characters in the second half that aren't balanced by the first half's character counts.
